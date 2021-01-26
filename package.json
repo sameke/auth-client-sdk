@@ -1,31 +1,32 @@
 {
-  "name": "@sameke/auth-client-sdk",
-  "version": "0.0.1",
-  "description": "SDK for developing authentication for applications using the Sameke Inc. OAuth 2.0 authentication server",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --project tsconfig.json",
-    "prepare": "npm run build && npm run git && npm version patch",
-    "postpublish": "git push",
-    "git": "git add . && git commit -m \"published\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sameke/auth-client-sdk.git"
-  },
-  "author": "Sameke Inc.",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/sameke/auth-client-sdk/issues"
-  },
-  "homepage": "https://github.com/sameke/auth-client-sdk#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.14.1",
-    "@typescript-eslint/parser": "4.14.1",
-    "eslint": "7.18.0"
-  },
-  "dependencies": {
-    "@sameke/auth-sdk-common": "0.0.3"
-  }
+    "name": "@sameke/auth-client-sdk",
+    "version": "0.0.1",
+    "description": "SDK for developing authentication for applications using the Sameke Inc. OAuth 2.0 authentication server",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc --project tsconfig.json",
+        "prepare": "npm run build && npm run git && npm version patch",
+        "postpublish": "git push",
+        "git": "git add . && git commit -m \"published\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sameke/auth-client-sdk.git"
+    },
+    "author": "Sameke Inc.",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/sameke/auth-client-sdk/issues"
+    },
+    "homepage": "https://github.com/sameke/auth-client-sdk#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "4.14.1",
+        "@typescript-eslint/parser": "4.14.1",
+        "eslint": "7.18.0",
+        "typescript": "4.1.3"
+    },
+    "dependencies": {
+        "@sameke/auth-sdk-common": "0.0.4"
+    }
 }
