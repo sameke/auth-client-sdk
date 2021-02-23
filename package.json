@@ -1,6 +1,6 @@
 {
     "name": "@sameke/auth-client-sdk",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "SDK for developing authentication for applications using the Sameke Inc. OAuth 2.0 authentication server",
     "main": "dist/index.js",
     "scripts": {
